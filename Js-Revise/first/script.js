@@ -1,2 +1,3 @@
 fullName = "Gauri Mahashabde"
-console.log(fullName);
+age = 25
+console.log(age);
