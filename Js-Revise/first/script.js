@@ -1,1 +1,2 @@
-console.log("Hello World");
+fullName = "Gauri Mahashabde"
+console.log(fullName);
