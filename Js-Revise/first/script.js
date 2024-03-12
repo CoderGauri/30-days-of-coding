@@ -2,4 +2,5 @@ fullName = "Gauri Mahashabde";
 age = 25;
 price = 120.89;
 a = null;
-console.log(a);
+b = undefined;
+console.log(b);
