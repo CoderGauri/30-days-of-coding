@@ -4,4 +4,5 @@ price = 120.89;
 a = null;
 b = undefined;
 doesFollow = true;
-console.log(doesFollow);
+fullName = 24;
+console.log(fullName);
