@@ -17,13 +17,23 @@
 // greetAgain = "Good evening"
 // console.log(greetAgain);
 
-console.log(game);
-var game; //undefine hoisted
-game = "tennis"
+// console.log(game);
+// var game; //undefine hoisted
+// game = "tennis"
 
-//console.log(show);
-let show;
+// //console.log(show);
+// let show;
 
-//onsole.log(movie);
-//const movie;
+// //onsole.log(movie);
+// //const movie;
+const isAvailable = "true";
+function showMessage()
+
+{
+
+console.log(isAvailable);
+}
+showMessage();
+
+//console.log(isAvailable);
 
