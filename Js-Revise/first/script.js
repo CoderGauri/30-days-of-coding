@@ -24,8 +24,8 @@
 // //console.log(show);
 // let show;
 
-// //onsole.log(movie);
-// //const movie;
+console.log(movie);
+const movie;
 const isAvailable = "true";
 function showMessage()
 
