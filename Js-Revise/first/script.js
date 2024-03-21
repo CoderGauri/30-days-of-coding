@@ -36,4 +36,9 @@ console.log(isAvailable);
 showMessage();
 
 //console.log(isAvailable);
+//js is case sensitive
+fullname = "Gauri";
+fullName = "Chaitra"
+
+
 
