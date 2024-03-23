@@ -1,0 +1,21 @@
+.hero_image{
+    background-image: url(Hero.webp) ;
+     -webkit-background-size:cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative; 
+}
+
+.wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50% , -50%);
+}
+
+.sue-ellen francisco-regular {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
