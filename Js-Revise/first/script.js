@@ -40,5 +40,9 @@ showMessage();
 fullname = "Gauri";
 fullName = "Chaitra"
 
+//operators
+//assignment operator
+const a = 5;
+
 
 
