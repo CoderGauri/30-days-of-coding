@@ -20,3 +20,53 @@ console.log(singer);
 var singer;
 singer = "sonu";
 
+//Declarations are hoisted
+//initilaizations are not hoisted
+//let - reference error
+//const - synatx error (code will not run)
+
+//function hoisting
+//example 1
+function printHello() {
+    console.log("hello")
+  }
+  
+  printHello()
+
+  //example 2
+  printHello()
+
+
+function printHello() {
+  console.log("hello")
+}
+
+//eample 3
+printHello()
+// hello
+
+printDillion()
+// ReferenceError: printDillion is not defined
+
+function printHello() {
+  console.log('hello')
+
+  function printDillion() {
+//console.log("dillion")
+  }
+}
+
+//example 4
+printHello()
+// hello
+
+function printHello() {
+  printDillion()
+  // dillion
+
+  console.log('hello')
+
+  function printDillion() {
+    console.log("dillion")
+  }
+}
