@@ -70,3 +70,10 @@ function printHello() {
     console.log("dillion")
   }
 }
+
+//
+console.log(x);
+
+var x = "Educative is amazing!";
+
+console.log(x);
