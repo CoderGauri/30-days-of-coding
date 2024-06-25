@@ -1,0 +1,46 @@
+.herosection {
+  height: 100vh;
+}
+
+.grand {
+  display: flex;
+}
+
+.img {
+  height: 240px;
+  width: 100%;
+  border: 2px darkblue solid;
+  border-radius: 10px;
+}
+
+.Product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ProductList {
+  display: flex;
+  flex-direction: column;
+flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid grey; */
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  Button{
+    width: 100%;
+    background-color: grey;
+    color: black;
+  }
